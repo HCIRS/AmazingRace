@@ -1,0 +1,25 @@
+<h1>Scoreboard</h1>
+<p>Welcome</p>
+
+{{#if error}}
+	<h3>{{error}}</h3>
+{{/if}}
+
+{{#if msg}}
+	<h3>{{msg}}</h3>
+{{/if}}
+
+<table>
+	<thead>
+		<th>Name</th>
+		<th>Total</th>
+	</thead>
+	<tbody>
+		{{#each participants}}
+		<tr>
+			<td>{{this.participantid}}</td>
+			<td>{{this.totalpoints}}</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>

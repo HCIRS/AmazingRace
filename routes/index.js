@@ -11,11 +11,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'da am4z1ng r4c3' });
 });
 router.get('/submit', function(req, res, next) {
-  res.render('submit', { title: 'Submit flag', user: req.user });
+  res.render('submit', { title: 'Submit Flag', user: req.user });
 });
 
 router.post('/submit', function(req, res, next) {
-	if(!req.body.name) res.render('submit', { error: 'No Name' });
+	if(!req.body.name) res.render('submit', { error: 'No Name' ,title: 'Submit flag'});
 	else if(req.body.name.length == 0) res.render('submit', { error: 'No Name' });
 	else {
 		var name = req.body.name.toUpperCase();
@@ -38,4 +38,9 @@ router.post('/submit', function(req, res, next) {
 	}
 });
 
+router.get('/scoreboard', function(req, res, next) {
+	entry.getRanks(function(err, result) {
+		res.render('scoreboard', {participants: result});
+	});
+});
 module.exports = router;
