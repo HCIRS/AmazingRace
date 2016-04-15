@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+{{#if error}}
+	<h3>{{error}}</h3>
+{{/if}}
+
+{{#if msg}}
+	<h3>{{msg}}</h3>
+{{/if}}
+<form method="post">
+Name: <input type="text" name="username"/> <br/>
+Pass: <input type="text" name="password"/> <br/>
+<input type="submit" />
+</form>

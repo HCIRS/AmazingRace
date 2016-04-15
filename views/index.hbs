@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<p>Welcome {{user.name}}</p>
+
+{{#if error}}
+	<h3>{{error}}</h3>
+{{/if}}
+
+{{#if msg}}
+	<h3>{{msg}}</h3>
+{{/if}}
+<a href="/login">Login</a>
+<a href="/feed">Newest</a>
