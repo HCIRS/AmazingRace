@@ -79,7 +79,8 @@
 					<h2>Instructions</h2>
 				</center>
 				<p>
-					FILL THIS UP.
+					Enter the answer to the questions in the flags box with your NRIC.<br/>
+					Happy solving!
 				</p>
 			</div>
 
@@ -193,7 +194,7 @@
 	<footer class="page-footer lol">
 		<div class="footer-copyright">
 			<div class="container">
-				Hwa Chong Mathematics &amp; Science Week 2016 &copy; HCIRS/ragulbalaji
+				Hwa Chong Mathematics &amp; Science Week 2016 &copy; HCIRS/ragulbalaji &amp; HCIRS/hojiefeng
 				<a class="grey-text text-lighten-4 right" href="https://infocommsociety.com">infocommsociety.com</a>
 			</div>
 		</div>
