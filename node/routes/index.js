@@ -8,7 +8,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'da am4z1ng r4c3' });
+  res.render('index', { title: 'Math & Science Week Amazing Race 2016!' });
 });
 router.get('/submit', function(req, res, next) {
   res.render('submit', { title: 'Submit Flag', user: req.user });
