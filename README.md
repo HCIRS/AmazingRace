@@ -1,6 +1,6 @@
 # Hwa Chong Math and Science Amazing Race
 
-![alt text]( ./Logo/MSW_light.png "MSW Logo!")
+![alt text]( logo.png "MSW Logo!")
 
 ### A collection of puzzles we used to excite students new areas of Math and Science
 
